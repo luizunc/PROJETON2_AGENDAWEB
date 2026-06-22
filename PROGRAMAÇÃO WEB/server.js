@@ -44,7 +44,7 @@ app.use('/', configuracaoRouter);
 require('./src/models/ConfiguracaoModel');
 require('./src/models/AgendamentoModel');
 
-db.sync({ alter: true });
+db.sync();
 
 app.listen(PORT, ()=>{
     console.log('app rodando na porta ' + PORT);
