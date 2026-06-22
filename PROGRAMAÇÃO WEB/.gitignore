@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Logs e Arquivos de Debug
+logs/
+*.log
+npm-debug.log*
+
+# Variáveis de Ambiente
+.env
+.env.local
+
+# Builds e Distribuição
+dist/
+build/
+out/
+.next/
+
+# Configurações de IDEs (Para não poluir o projeto com configurações locais do seu PC)
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
